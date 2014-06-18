@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-  Template.naptime.didYa = function () {
+  Template.hello.greeting = function () {
     return "Welcome to DidYouNap.";
   };
 
@@ -10,7 +10,6 @@ if (Meteor.isClient) {
         console.log("You pressed the button");
     }
   });
-}
 
 if (Meteor.isServer) {
   Meteor.startup(function () {
