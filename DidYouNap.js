@@ -1,5 +1,5 @@
 if (Meteor.isClient) {
-  Template.hello.greeting = function () {
+  Template.naptime.didYa = function () {
     return "Welcome to DidYouNap.";
   };
 
